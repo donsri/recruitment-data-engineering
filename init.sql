@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS results (
     constructor_id INT REFERENCES constructors(constructor_id),
     number INT,
     grid INT,
-    position INT,
+    position VARCHAR(255),
     points DECIMAL,
     laps INT,
     time VARCHAR(255),
